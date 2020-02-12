@@ -1,2 +1,2 @@
-# Presentaciones_Beamer-y-CVs
-Presentaciones Beamer con R y Markdown. Formatos de hoja de vida.
+# Presentaciones_Beamer
+Presentaciones Beamer con R y Markdown.
