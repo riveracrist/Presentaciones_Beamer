@@ -1,0 +1,104 @@
+---
+title: "Beamer Berkeley theme"
+author: "CRG"
+date: "Febrero de 2020"
+institute: "Universidad del Crédito"
+
+output:
+  beamer_presentation:
+    theme: "Berkeley"
+    colortheme: "default"
+    fonttheme: "default"
+    toc: true
+    keep_tex: true
+    slide_level: 2
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Inquietudes
+
+
+##
+
+* ¿Cómo agregar logo sólo en la portada?
+* ¿Cómo agregar logo en cualquier página?
+
+# R Markdown
+
+## Definición
+
+Markdown es un lenguaje de marcado ligero creado por **John Gruber** que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Para más detalles sobre el uso de [R Markdown](http://rmarkdown.rstudio.com).
+
+# Viñetas
+
+## Página con viñetas
+
+- Nivel 1
+    - Nivel
+        - Nivel
+- Nivel 2
+- Nivel 3
+
+# Insertar código R
+
+## Página con salida de código R
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+# Gráfico con R
+
+##
+
+```{r iris, echo = TRUE}
+plot(iris)
+```
+
+# Ecuaciones
+
+## Expresiones algebraicas
+
+$$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$
+
+$$\sin^2 x + \cos^2 x = 1$$
+
+\begin{equation}
+ \left[
+ \begin{matrix}
+  a & b & c \\
+  d & e & f \\
+  g & h & i
+ \end{matrix}
+ \right]
+\end{equation}
+
+$$\left.\begin{array}{l}2x+3y=5\\6x-2y=8\end{array}\right\}$$
+
+# Insertar imagen
+
+##
+
+![](erupcion_sol.jpg)
+
+
+# Tabla
+
+## Haciendo tabla con Markdown
+
+| Elemento | Cantidad | Precio |
+| :------- | :------: | -----: |
+| Item 1   | 15       | 150€   |
+| Item 2   | 3250     | 23,65€ |
+| Item 3   | 58       | 67.91€ |
+
+
+##
+
+![](gracias.jpg)
